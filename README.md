@@ -4,31 +4,33 @@
 
 # 🛍️ Perdasi Store
 
-**Perdasi Store** is a modern and responsive Flutter-based shopping app offering a seamless e-commerce experience. With elegant UI and essential features like user authentication, category browsing, and order tracking, it is designed to provide users with a clean and intuitive shopping experience on mobile devices.
+**Perdasi Store** is a modern and responsive eCommerce mobile application built using Flutter and Dart. It integrates Firebase backend services for authentication and database operations, applies MVVM clean architecture, and utilizes Riverpod for state management. This application is designed to deliver a seamless shopping experience with persistent session handling and real-time updates.
+
 
 ---
 
-## ✨ Features
+## Features
 
-- 🛒 **Product Catalog**  
-  Browse products by categories like **Mens**, **Womens**, and **Kids**.
-
-- 👤 **User Authentication**  
-  Secure login and registration flow using Firebase Auth (or any preferred backend).
-
-- 🔍 **Search Functionality**  
-  Find products quickly with built-in search.
-
-- 🧾 **Order Tracking**  
-  View past orders and current delivery status (planned/implemented).
-
-- 💼 **Cart & Checkout (In Progress)**  
-  Add items to cart, manage cart, and place orders (extendable).
-
-- 🔐 **State Management (e.g. Provider, Bloc)**  
-  Easily scalable and maintainable architecture.
+- Clean and scalable **MVVM architecture**
+- **Firebase Authentication** with secure login and signup
+- **Cloud Firestore** integration for product and user data storage
+- Real-time **state management** using **Riverpod**
+- **SharedPreferences** for user session persistence
+- **Push notifications** for user engagement
+- Responsive UI compatible with all device sizes
+- Structured folder organization and reusable widgets
 
 ---
+
+## Tech Stack
+
+- **Flutter** & **Dart**
+- **Riverpod** (state management)
+- **Firebase Auth**
+- **Cloud Firestore**
+- **Firebase Cloud Messaging (FCM)**
+- **SharedPreferences**
+- **MVVM (Model-View-ViewModel)** pattern
 
 ## Screens
 
@@ -37,10 +39,42 @@
 
 ---
 
-## 🚀 Getting Started
+## Folder Structure
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/perdasi_store.git
-cd perdasi_store
+lib/
+├── binding/
+├── common/
+│ ├── style/
+│ └── widgets/
+├── data/
+│ ├── repositories/
+│ └── services/
+├── features/
+│ ├── auth/
+| |   ├── controllers/
+│ |   ├── models/
+│ |   └── screens/
+│ ├── personalization/
+| |   ├── controllers/
+│ |   ├── models/
+│ |   └── screens/
+│ └── shop/
+| |   ├── controllers/
+│ |   ├── models/
+│ |   └── screens/
+├── localization/
+├── utils/
+│ ├── constant/
+│ ├── devices/
+│ ├── formatters/
+│ ├── helpers/
+│ ├── http/
+│ ├── local-storage/
+│ ├── logging/
+│ ├── theme/
+│ └── validators/
+└── main.dart
+
+
+
