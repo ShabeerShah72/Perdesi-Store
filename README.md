@@ -42,39 +42,40 @@
 ## Folder Structure
 
 
-lib/
-├── binding/
-├── common/
-│ ├── style/
-│ └── widgets/
-├── data/
-│ ├── repositories/
-│ └── services/
-├── features/
-│ ├── auth/
-| |   ├── controllers/
-│ |   ├── models/
-│ |   └── screens/
-│ ├── personalization/
-| |   ├── controllers/
-│ |   ├── models/
-│ |   └── screens/
-│ └── shop/
-| |   ├── controllers/
-│ |   ├── models/
-│ |   └── screens/
-├── localization/
-├── utils/
-│ ├── constant/
-│ ├── devices/
-│ ├── formatters/
-│ ├── helpers/
-│ ├── http/
-│ ├── local-storage/
-│ ├── logging/
-│ ├── theme/
-│ └── validators/
-└── main.dart
+- lib/
+- ├── binding/
+- ├── common/
+- │ ├── style/
+- │ └── widgets/
+- ├── data/
+- │ ├── repositories/
+- │ └── services/
+- ├── features/
+- │ ├── auth/
+- | |   ├── controllers/
+- │ |   ├── models/
+- │ |   └── screens/
+- │ ├── personalization/
+- | |   ├── controllers/
+- │ |   ├── models/
+- │ |   └── screens/
+- │ └── shop/
+- | |   ├── controllers/
+- │ |   ├── models/
+- │ |   └── screens/
+- ├── localization/
+- ├── utils/
+- │ ├── constant/
+- │ ├── devices/
+- │ ├── formatters/
+- │ ├── helpers/
+- │ ├── http/
+- │ ├── local-storage/
+- │ ├── logging/
+- │ ├── theme/
+- │ └── validators/
+- └── main.dart
+
 
 
 
